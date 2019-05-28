@@ -196,9 +196,8 @@ z-index: 2;
     margin-bottom: 5%;
 }
 footer{
-    position: absolute;
     position: sticky;
-    bottom:0%;
+    bottom:0;
     width:97%;
     background-color: slategray;
     color:black;
@@ -207,7 +206,27 @@ footer{
     margin-top:10%;
 
 }
-@media screen and (max-width:768px){}
+@media screen and (max-width:980px){
+    .bio{
+        position: relative;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 18pt;
+        margin-top:30px;
+        max-width: 750px;
+        margin-left:10px;
+        line-height: 22pt;
+        letter-spacing: 2px;
+}
+footer{
+    position: sticky;
+    bottom:0;
+    width:97%;
+    background-color: slategray;
+    color:black;
+    padding:10px;
+    text-align: center;
+    margin-top:20%;}
+}
 
 @media screen and (max-width:640px){
     #header1 {
@@ -245,13 +264,12 @@ footer{
     width:60%;
     }
     footer{
-        position: static;
+        position: relative;
         bottom:0%;
-        width:97%;
+        width:95%;
         background-color: slategray;
         color:black;
         padding:10px;
         text-align: center;
         margin-top:10%;        
-
-}
+    }
