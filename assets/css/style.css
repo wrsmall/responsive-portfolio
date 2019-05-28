@@ -1,0 +1,257 @@
+ 
+
+ body {
+     background-image: url(../images/marbel.jpg)
+
+
+}
+
+#header1 {
+    background-color:#ffffff;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:30px;
+    padding-top: 3px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-width:thick;
+    width:100%;
+    
+    
+}
+#header2{
+    background-color:#ffffff;
+    height: 5%;
+    width:100%;
+
+    
+    
+}
+#aboutme{
+    background-color: slategray;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-weight: 400;
+    font-size: 16pt;
+    width:  20%;
+    height:75%;
+    padding: 10px;
+    margin:5px;
+    letter-spacing: 2px;
+}
+.mainart{
+    background-color: #ffffff;
+    position: relative;
+    max-width:960px;
+    min-width: 100px;
+    min-height: 500px;
+    margin-right:50px;
+    margin-left:50px;
+    border-style: solid;
+    border-color: black;
+    border-width:thin;
+    display:inline-table;
+    
+}
+nav{
+    position: absolute;
+    right:60px;
+    top: 40px;
+    width:250px;
+    
+}
+
+#name{
+    background-color:slategray;
+    color: whitesmoke;
+    font-family: 'Maiden Orange', cursive;
+    font-size: 14pt;
+    font-weight: 400;
+    text-align: center;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-right:30px;
+    padding-left: 30px;
+    margin-left:3%;
+    margin-bottom: 5px;
+    margin-top:5px;
+    width:20%;
+    letter-spacing: 2px;
+    
+}
+hr{
+    width: 97%;
+    max-width:950px;
+    min-width: 100px;
+    color:lightgray;
+    position: relative;
+}
+#about{
+    float: left;
+    width:31%;
+    text-align: center;
+    border-right-style:solid;
+    border-right-color: gray; 
+    border-width: thin;
+}
+#portfolio{
+    float: left;
+    width:31%;
+    padding-right:3px;
+    padding-left: 3px;
+    text-align: center;
+    
+}
+#contact{
+    float: left;
+    text-align: center;
+    width:31%;
+    border-left-style:solid;
+    border-left-color: gray;
+    border-width: thin;
+}
+#portfolio-img{
+    float:left;
+    width:300px;
+    height:200px;
+    border-style: solid;
+    border-color:black;
+    border-width:thin;
+    margin-left:15px;
+    margin-top:15px;
+    margin-right:10px;
+}
+.bio{
+    position: relative;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18pt;
+    margin-top:30px;
+    margin-left:10px;
+    line-height: 22pt;
+    letter-spacing: 2px;
+}
+.contactme{
+    color: slategray;
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-weight: 400;
+    font-size: 18pt;
+    width:  15%;
+    height:75%;
+    letter-spacing: 2px;
+}
+#sender{
+    width:50%;
+    height:5%;
+    margin-left:5%;
+    margin-bottom: 2%;
+}
+#email{
+    width:50%;
+    height:5%;
+    margin-left:5%;
+    margin-bottom: 2%;
+}
+#sendermess{
+    width:50%;
+    height:200px;
+    margin-left:5%;
+    margin-bottom: 2%;
+}
+#myport{
+    color: slategray;
+    text-align: center;
+    font-family: 'Maiden Orange', cursive;
+    font-weight: 400;
+    font-size: 18pt;
+    width:  15%;
+    height:100%;
+    letter-spacing: 2px;
+}
+.portimg{
+float:left;
+position: relative;;
+padding:15px;
+width:225px;
+height:225px;
+z-index: 2;
+}
+.email{
+    background-color: #ffffff;
+    position: relative;
+    max-width:960px;
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 900px;
+    margin-right:50px;
+    margin-left:50px;
+    border-style: solid;
+    border-color: black;
+    border-width:thin;
+
+}
+#submit{
+    margin-left:10%;
+    margin-bottom: 5%;
+}
+footer{
+    position: absolute;
+    position: sticky;
+    bottom:0%;
+    width:97%;
+    background-color: slategray;
+    color:black;
+    padding:10px;
+    text-align: center;
+    margin-top:10%;
+
+}
+@media screen and (max-width:768px){}
+
+@media screen and (max-width:640px){
+    #header1 {
+        background-color:#ffffff;
+        position: static;
+        margin-bottom:30px;
+        padding-top: 3px;
+        padding-bottom:20px;
+        border-bottom-color: black;
+        border-bottom-style: solid;
+        border-width:thick;
+        width:100%;
+    }    
+    #name{
+        position:static;
+        background-color:slategray;
+        color: whitesmoke;
+        font-family: 'Maiden Orange', cursive;
+        font-size: 14pt;
+        font-weight: 400;
+        text-align: center;
+        padding-top:5%;
+        padding-bottom: 5%;
+        padding-right:5%;
+        padding-left: 5%;
+        margin-right:10%;
+        margin-left:10%;
+        width:auto;
+        letter-spacing: 2px;
+    }
+    
+    nav{
+    position:static;
+    margin:auto;
+    width:60%;
+    }
+    footer{
+        position: static;
+        bottom:0%;
+        width:97%;
+        background-color: slategray;
+        color:black;
+        padding:10px;
+        text-align: center;
+        margin-top:10%;        
+
+}
